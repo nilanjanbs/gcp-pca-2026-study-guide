@@ -12,12 +12,12 @@ This repository contains a complete, cohort-style study framework for the **Goog
 # 📚 Domain Breakdown
 | Domain | Weight | Guide Link | Focus Areas |
 |--------|--------|------------|-------------|
-| 1. Designing & Planning | 24% | [`domains/01-Designing-Planning.md`](domains/01-designing-planning.md) | Requirements mapping, service selection, multi-region patterns, Vertex AI design |
-| 2. Managing & Provisioning | 15% | [`domains/02-Managing-Provisioning.md`](domains/02-managing-provisioning.md) | Terraform patterns, GKE provisioning, CI/CD integration, observability-as-code |
-| 3. Security & Compliance | 20% | [`domains/03-Security-Compliance.md`](domains/03-security-compliance.md) | IAM deep dive, CMEK/VPC-SC, Securing AI patterns, audit & compliance automation |
-| 4. Analyzing & Optimizing | 18% | [`domains/04-Analyzing-Optimizing.md`](domains/04-analyzing-optimizing.md) | Cost/performance tuning, Recommender API, Dataflow triggers, sustainability |
-| 5. Managing Implementation | 11% | [`domains/05-Managing-Implementation.md`](domains/05-managing-implementation.md) | Traffic splitting, Config Connector, tool selection rules, governance automation |
-| 6. Reliability & WAF | 12% | [`domains/06-Reliability-WAF.md`](domains/06-reliability-waf.md) | HA vs DR, RPO/RTO mapping, probes, SLO burn rates, Backup & DR service |
+| 1. Designing & Planning | 24% | [`domains/01-Designing-Planning.md`](domains/01-Designing-Planning.md) | Requirements mapping, service selection, multi-region patterns, Vertex AI design |
+| 2. Managing & Provisioning | 15% | [`domains/02-Managing-Provisioning.md`](domains/02-Managing-Provisioning.md) | Terraform patterns, GKE provisioning, CI/CD integration, observability-as-code |
+| 3. Security & Compliance | 20% | [`domains/03-Security-Compliance.md`](domains/03-Security-Compliance.md) | IAM deep dive, CMEK/VPC-SC, Securing AI patterns, audit & compliance automation |
+| 4. Analyzing & Optimizing | 18% | [`domains/04-Analyzing-Optimizing.md`](domains/04-Analyzing-Optimizing.md) | Cost/performance tuning, Recommender API, Dataflow triggers, sustainability |
+| 5. Managing Implementation | 11% | [`domains/05-Managing-Implementation.md`](domains/05-Managing-Implementation.md) | Traffic splitting, Config Connector, tool selection rules, governance automation |
+| 6. Reliability & WAF | 12% | [`domains/06-Reliability-WAF.md`](domains/06-Reliability-WAF.md) | HA vs DR, RPO/RTO mapping, probes, SLO burn rates, Backup & DR service |
 
 ## 📅 8-Week Study Plan
 | Week | Focus | Deliverable | Time Commitment |
