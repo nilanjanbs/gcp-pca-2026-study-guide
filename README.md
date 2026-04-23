@@ -87,9 +87,6 @@ This repository contains a complete, cohort-style study framework for the **Goog
 | Cloud Monitoring | "Cloud Monitoring Uptime Checks & SRE Alerting" | Google Cloud Tech | 18 min |
 | Backup & DR Service | "Backup and DR Service: Cost-Effective Recovery Strategies" | Google Cloud Tech | 19 min |
 
-# 📚 Curated Reading Lists: Official Google Cloud Docs
-### Google Professional Cloud Architect 2026 | Domain-by-Domain Resource Tables
-
 # 📚 Verified Reading Lists: Blogs, Medium Articles & Official Docs
 ### Google Professional Cloud Architect 2026 | Domain-by-Domain Resources (VALIDATED LINKS)
 
