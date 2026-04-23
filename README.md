@@ -87,6 +87,96 @@ This repository contains a complete, cohort-style study framework for the **Goog
 | Cloud Monitoring | "Cloud Monitoring Uptime Checks & SRE Alerting" | Google Cloud Tech | 18 min |
 | Backup & DR Service | "Backup and DR Service: Cost-Effective Recovery Strategies" | Google Cloud Tech | 19 min |
 
+# 📚 Curated Reading Lists: Official Google Cloud Docs
+### Google Professional Cloud Architect 2026 | Domain-by-Domain Resource Tables
+
+Below are curated reading resources for each of the 6 PCA domains, formatted in tables matching the YouTube playlist style. Each entry includes **Blog/Medium articles** and **Official Google Cloud Documentation** with read times and key takeaways.
+
+---
+
+## 🏗️ Domain 1: Designing & Planning Cloud Solutions (24%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [Architecture Framework](https://cloud.google.com/architecture/framework) | Foundational | 25 min | The source of truth for WAF pillars; read the "Design Principles" section 3x | [View](https://cloud.google.com/architecture/framework) |
+| [Choosing Compute Options](https://cloud.google.com/architecture/compute-options) | Service Selection | 15 min | Official decision tree for Cloud Run, GKE, GCE, Serverless | [View](https://cloud.google.com/architecture/compute-options) |
+| [Data Storage Options](https://cloud.google.com/architecture/data-storage-options) | Data Architecture | 18 min | Matrix for BigQuery vs Spanner vs Firestore vs Cloud SQL | [View](https://cloud.google.com/architecture/data-storage-options) |
+| [Multi-Region Deployment Guide](https://cloud.google.com/architecture/multi-region-deployment) | HA/DR Design | 20 min | Patterns for global apps with latency, consistency, and cost trade-offs | [View](https://cloud.google.com/architecture/multi-region-deployment) |
+| [Vertex AI Architecture Guide](https://cloud.google.com/architecture/vertex-ai-architecture) | **NEW 2026** | 16 min | End-to-end patterns for training, serving, and securing AI workloads | [View](https://cloud.google.com/architecture/vertex-ai-architecture) |
+| [Published Case Studies Library](https://cloud.google.com/case-studies) | Practice Material | Variable | Real-world examples of requirement → solution → results; study the "Challenges" section | [View](https://cloud.google.com/case-studies) |
+
+---
+
+## ⚙️ Domain 2: Managing & Provisioning Infrastructure (15%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [Terraform on GCP Guide](https://cloud.google.com/docs/terraform) | IaC Fundamentals | 20 min | Official patterns for backend config, modules, and CI/CD integration | [View](https://cloud.google.com/docs/terraform) |
+| [GKE Autopilot Documentation](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) | GKE Provisioning | 15 min | Security defaults, pod-based billing, and limitation awareness | [View](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) |
+| [Cloud Run Deployment Guide](https://cloud.google.com/run/docs/deploying) | Serverless Provisioning | 12 min | Traffic splitting, revisions, secrets, and autoscaling configuration | [View](https://cloud.google.com/run/docs/deploying) |
+| [Organization Policies Catalog](https://cloud.google.com/org-policy/constraints/list) | Governance Guardrails | 18 min | Full list of constraints for shift-left security and compliance enforcement | [View](https://cloud.google.com/org-policy/constraints/list) |
+| [Cloud Logging Export Guide](https://cloud.google.com/logging/docs/export) | Observability Setup | 14 min | Configuring sinks, retention, and immutable audit trails | [View](https://cloud.google.com/logging/docs/export) |
+| [Vertex AI Security Guide](https://cloud.google.com/vertex-ai/docs/security) | **NEW 2026** | 16 min | Private endpoints, CMEK integration, and audit logging for AI workloads | [View](https://cloud.google.com/vertex-ai/docs/security) |
+
+---
+
+## 🔐 Domain 3: Security & Compliance (+ Securing AI) (20%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [IAM Documentation](https://cloud.google.com/iam/docs) | Identity Management | 22 min | Roles, conditions, service accounts, and workload identity federation patterns | [View](https://cloud.google.com/iam/docs) |
+| [Cloud KMS Guide](https://cloud.google.com/kms/docs) | Encryption & Key Management | 18 min | CMEK configuration, key rotation, and minimal IAM permissions for keys | [View](https://cloud.google.com/kms/docs) |
+| [VPC Service Controls Overview](https://cloud.google.com/vpc-service-controls/docs) | Network Security Boundaries | 20 min | Perimeter creation, dry-run testing, and access level configuration | [View](https://cloud.google.com/vpc-service-controls/docs) |
+| [Compliance Reports & Certifications](https://cloud.google.com/security/compliance) | Compliance Frameworks | Variable | Official attestations for HIPAA, PCI-DSS, GDPR, FedRAMP, etc. | [View](https://cloud.google.com/security/compliance) |
+| [Cloud DLP Documentation](https://cloud.google.com/dlp/docs) | Data Protection | 16 min | De-identification, inspection, and policy tag integration for PII/PHI | [View](https://cloud.google.com/dlp/docs) |
+| [Securing AI on Vertex AI](https://cloud.google.com/vertex-ai/docs/security/securing-ai) | **NEW 2026** | 17 min | End-to-end security patterns for training, serving, and auditing AI models | [View](https://cloud.google.com/vertex-ai/docs/security/securing-ai) |
+
+---
+
+## 📊 Domain 4: Analyzing & Optimizing Processes (18%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [Cost Management Guide](https://cloud.google.com/cost-management/docs) | Cost Optimization | 20 min | Billing export, budget alerts, commitment planning, and attribution patterns | [View](https://cloud.google.com/cost-management/docs) |
+| [Recommender API Documentation](https://cloud.google.com/recommender/docs) | Automated Optimization | 18 min | Programmatic access, filtering, and integration with CI/CD for optimization workflows | [View](https://cloud.google.com/recommender/docs) |
+| [Cloud Monitoring SLO Guide](https://cloud.google.com/monitoring/api/sre) | SLO-Driven Optimization | 16 min | Defining SLIs/SLOs, burn rate alerting, and error budget policies | [View](https://cloud.google.com/monitoring/api/sre) |
+| [Carbon Sense API Documentation](https://cloud.google.com/carbon-sense/docs) | **NEW 2026** | 14 min | Carbon intensity data by region/time for sustainable workload scheduling | [View](https://cloud.google.com/carbon-sense/docs) |
+| [Vertex AI Pricing & Optimization](https://cloud.google.com/vertex-ai/pricing) | **NEW 2026** | 15 min | Cost models for training, prediction, and feature store with optimization tips | [View](https://cloud.google.com/vertex-ai/pricing) |
+| [Dataflow Pricing & Performance](https://cloud.google.com/dataflow/pricing) | Stream Processing Optimization | 17 min | Understanding vCPU/memory billing, shuffle costs, and autoscaling parameters | [View](https://cloud.google.com/dataflow/pricing) |
+
+---
+
+## 🚀 Domain 5: Managing Implementation (11%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [Cloud SDK Documentation](https://cloud.google.com/sdk/docs) | Tooling & Interfaces | 18 min | gcloud command reference, scripting patterns, and Cloud Build integration | [View](https://cloud.google.com/sdk/docs) |
+| [Config Connector Overview](https://cloud.google.com/config-connector/docs/overview) | Declarative Management | 20 min | Managing GCP resources as Kubernetes objects with GitOps workflows | [View](https://cloud.google.com/config-connector/docs/overview) |
+| [Cloud Run Traffic Management](https://cloud.google.com/run/docs/traffic-management) | Deployment Safety | 12 min | Tag-based routing, percentage splitting, and revision retention for rollbacks | [View](https://cloud.google.com/run/docs/traffic-management) |
+| [Organization Policies Guide](https://cloud.google.com/org-policy/docs) | Governance Automation | 16 min | Enforcing guardrails at org/folder/project level with Terraform validation | [View](https://cloud.google.com/org-policy/docs) |
+| [Cloud Endpoints Documentation](https://cloud.google.com/endpoints/docs) | API Governance | 15 min | OpenAPI/gRPC spec management, API key authentication, and quota configuration | [View](https://cloud.google.com/endpoints/docs) |
+| [Vertex AI Model Deployment](https://cloud.google.com/vertex-ai/docs/deploy) | **NEW 2026** | 14 min | Multi-model endpoints, traffic splitting, and monitoring for safe ML rollouts | [View](https://cloud.google.com/vertex-ai/docs/deploy) |
+
+---
+
+## 🛡️ Domain 6: Reliability & WAF (Operational Excellence) (12%)
+
+### 📄 Official Google Cloud Documentation
+| Doc Title | Category | Read Time | Why It's Critical | Link |
+|-----------|----------|-----------|----------------|------|
+| [High Availability Patterns](https://cloud.google.com/architecture/high-availability) | HA Design | 20 min | Multi-zone, regional, and cross-region patterns with cost/reliability trade-offs | [View](https://cloud.google.com/architecture/high-availability) |
+| [Disaster Recovery Planning](https://cloud.google.com/architecture/disaster-recovery) | DR Design | 22 min | RPO/RTO mapping, active-standby/active-active patterns, and failover automation | [View](https://cloud.google.com/architecture/disaster-recovery) |
+| [Cloud SQL High Availability](https://cloud.google.com/sql/docs/mysql/high-availability) | Data Resilience | 16 min | Synchronous standby, automatic failover, and replication lag monitoring | [View](https://cloud.google.com/sql/docs/mysql/high-availability) |
+| [Cloud Monitoring Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) | Observability for Reliability | 14 min | External probing, multi-region configuration, and alerting integration | [View](https://cloud.google.com/monitoring/uptime-checks) |
+| [Backup and DR Service Documentation](https://cloud.google.com/backup-dr/docs) | **NEW 2026** | 18 min | Centralized backup management, policy-based retention, and automated restore testing | [View](https://cloud.google.com/backup-dr/docs) |
+| [Well-Architected Framework: Reliability Pillar](https://cloud.google.com/architecture/framework/reliability-pillar) | WAF Alignment | 19 min | Official guidance on SLOs, failure handling, recovery strategies, and observability | [View](https://cloud.google.com/architecture/framework/reliability-pillar) |
+
+---
 
 ## 🚀 Quick Start
 1. **Clone & Setup**
